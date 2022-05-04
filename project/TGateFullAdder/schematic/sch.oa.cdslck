@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      lstewa20
+HostName                       bounce.ece.uic.edu
+ProcessIdentifier              7922
+ProcessCreationTime_UTC        1607370907
+ProcessCreationTime_Readable   Mon Dec  7 13:55:07 2020 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home1/AD/lstewa20/check/ECE467Project1/project/TGateFullAdder/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Dec  7 16:12:49 2020 CST

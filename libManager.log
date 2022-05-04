@@ -1,0 +1,60 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 09/24/2018 21:00 (ip-172-18-22-224) $
+\o Sub version:		sub-version  p015 
+\o Arguments:		-unmapped -mpssession virtuoso29318 -mpshost bounce.ece.uic.edu 
+\o Working Directory:	bounce.ece.uic.edu:/home1/AD/jriem2/ECE467Project1
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home1/AD/jriem2/ECE467Project1") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home1/AD/jriem2/ECE467Project1/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(779 407 602 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: LIB cds#2elib from File /home1/AD/jriem2/cds.lib Line 5 redefines
+\w LIB cds#2elib from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "cds.lib"
+\a cdsLibManager->libLineEdit->value = "cds.lib"
+\a cdsLibManager->cellListBox->value = "Test_Space"
+\a cdsLibManager->cellLineEdit->value = "Test_Space"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 42 108 2 "Test_Space")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(757 400 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(911 527 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "Test_Space" from library "cds.lib".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(936 546 268 133))
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\o Deleted cell 'cds.lib/Test_Space'.
+\o Deletion of 1 cell done.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB cds#2elib from File /home1/AD/jriem2/cds.lib Line 5 redefines
+\w LIB cds#2elib from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "cds.lib"
+\a cdsLibManager->libLineEdit->value = "cds.lib"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->fileExitButton->value = t
+\o libManager is exiting.
+\a exit(0)

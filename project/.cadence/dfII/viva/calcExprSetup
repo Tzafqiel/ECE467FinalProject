@@ -1,0 +1,4 @@
+artistResMgrCalcExprSetup("false" "plot" "E0" "average(v("/Qb" ?result "timeSweep"))")
+artistResMgrCalcExprSetup("true" "plot" "E1" "average(IT("/V0/MINUS"))")
+artistResMgrCalcExprSetup("false" "plot" "E3" "average(IS("/V0/MINUS"))")
+artistResMgrCalcExprSetup("true" "plot" "E2" "average(IT("/V0/MINUS"))")

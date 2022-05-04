@@ -1,0 +1,11 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 09/24/2018 21:03 (ip-172-18-22-224) $
+\o Sub version:		sub-version  p015 
+\o Arguments:		-cdslib /home1/AD/jriem2/cds.lib -mpssession virtuoso20556 -mpshost bounce.ece.uic.edu 
+\o Working Directory:	bounce.ece.uic.edu:/home1/AD/jriem2/ECE467Project1
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrResizeWindow(cdsLibEditor list(0 0 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(60 83 500 400))
+\a exit(0)

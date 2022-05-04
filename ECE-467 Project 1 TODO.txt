@@ -1,0 +1,12 @@
+TO-DO
+Graphs for all aquired data.
+Compiling project report, to make it look presentable.
+(OPTIONAL?)He mentioned in class that we had to note down who did what, eh.
+
+Testing
+(Inverter-chain)
+-Optimize the body biasing of all the NMOS transistors to minimize delay and plot Delay vs Vbs(-0.25 to 0.25)(for optimal N)[All NMOS will have same Vbs)[Double check this, the -0.25 and 0.25 might be flipped]
+-(OPTIONAL)Optimize the body biasing of all the PMOS transistors to minimize delay and plot Delay vs Vbs(-0.25 to 0.25)(for optimal P)[All PMOS will have same Vbs)
+
+(Gates)
+-(OPTIONAL)Optimize the body biasing of all the PMOS transistors to minimize delay and plot Delay vs Vbs(-0.25 to 0.25)(for optimal P)[All PMOS will have same Vbs)

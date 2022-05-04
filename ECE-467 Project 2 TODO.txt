@@ -1,0 +1,19 @@
+TODO
+1-bit full adder
+(CMOS Full Adder) OR (Transmission Gate Adder)
+
+-Area and delay
+-Delay vs. Supply Voltage
+-Delay vs. Temperature
+-Leakage Current vs. Supply Voltage and Temperature
+
+8-bit Ripple Carry Adder(Lower area)
+8-bit Carry Select Adder(Faster)
+Optimize Worst case <500ps
+
+Obtain proper functionality
+Compare area and delay preformance of two architectures
+Determine and state the input combination for worst-case delay
+-Worse Case Delay vs. Supply voltage
+-Worse case delay vs. temperature
+-Leakage current vs. supply voltage and temperature
